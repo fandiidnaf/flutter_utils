@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_utils/theme/colors/app_theme.dart';
-import 'package:flutter_utils/theme/const/app_const.dart';
-import 'package:flutter_utils/theme/cubit/theme_cubit.dart';
 import 'package:hive_ce_flutter/hive_flutter.dart';
+
+import 'theme/colors/app_theme.dart';
+import 'theme/const/app_const.dart';
+import 'theme/cubit/theme_cubit.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_utils/theme/const/app_const.dart';
 import 'package:hive_ce_flutter/hive_flutter.dart';
+
+import '../const/app_const.dart';
 
 class ThemeCubit extends Cubit<ThemeMode> {
   ThemeCubit(super.theme);
