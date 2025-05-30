@@ -1,3 +1,5 @@
 # flutter_utils
 
-A new Flutter project.
+# Theme App (Light Mode, Dark Mode, System Mode)
+# Extension Color 
+1. install package: flutter_bloc, hive_ce_flutter
