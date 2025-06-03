@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'dart:io'; // For SocketException
 import 'package:dio/dio.dart';
-import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart'; // Menggunakan versi plus yang lebih baru
 import 'package:flutter/foundation.dart'; // For debugPrint
+import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart'; // Menggunakan versi plus yang lebih baru
 
 // --- DioConnectivityRequestRetrier ---
 /// A class responsible for scheduling and executing Dio requests
