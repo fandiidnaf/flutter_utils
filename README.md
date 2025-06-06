@@ -280,3 +280,26 @@ import flutter_local_notifications
 ```
 
 2. (Optional) Add custom sound to `ios/Runner` (e.g., `custom_sound.airf`).
+
+
+## ☁️ Cloud Firestore Integration
+
+Integrate Cloud Firestore to enable real-time database capabilities in your Flutter application.
+
+### 📦 Install Dependency
+
+```bash
+fvm flutter pub add cloud_firestore
+```
+
+### 🔧 Setup Instructions
+
+1. See folder firebase/cloud_firestore/cloud_firestore.dart and main_firebase_cloud_firestore.dart
+
+### 🔐 Authentication Requirement
+
+To perform secure reads and writes, ensure users are authenticated and your Firestore rules are configured accordingly.
+
+---
+
+This section aligns with the style and structure of other modules in this documentation.

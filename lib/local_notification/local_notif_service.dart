@@ -6,7 +6,7 @@ import 'package:flutter_utils/local_notification/helper/app_notification_helper.
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
 
-import 'package:flutter_utils/main_firebase.dart';
+import 'package:flutter_utils/main_firebase_fcm.dart';
 
 // --- Navigation Handlers (Decoupled) ---
 // Define a type for your navigation callback
